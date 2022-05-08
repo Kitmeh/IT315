@@ -1,0 +1,66 @@
+let dm1 = Museum()
+                    dm1.MuseumName = "Smithsonian National Museum of Natural History"
+                    dm1.MuseumDescription = "Established in 1910 and located on the National Mall, this prestigious museum, part of the Smithsonian Institution, holds the world's most extensive collection of natural history specimens and human artifacts including the remains of dinosaurs and tools used by early man."
+                    dm1.MuseumTicket = "Free Entry"
+                    dm1.MuseumHour = "10AM – 5:30PM"
+                    dm1.MuseumParking = "Street Parking"
+                    dm1.MuseumMap = "https://naturalhistory.si.edu/sites/default/files/media/file/211102natural-history-museum-map-digital-01.pdf"
+                    dm1.MuseumAddress = "10th St. & Constitution Ave. NW, Washington, DC 20560"
+                    dm1.MuseumWebSite  = "https://naturalhistory.si.edu/"
+                    dm1.MuseumImage = "National Museum of Natural History.png"
+                    dm1.MuseumEvent = "https://naturalhistory.si.edu/events"
+                    DMArray.insert(dm1, at: 0)
+                let dm2 = Museum()
+                        dm2.MuseumName = "African American History and Culture"
+                        dm2.MuseumDescription = "The National Museum of African American History and Culture is a Smithsonian Institution museum located on the National Mall in Washington, D.C., in the United States. It was established in December 2003 and opened its permanent home in September 2016 with a ceremony led by President Barack Obama."
+                        dm2.MuseumTicket = "Not Free Entry"
+                     
+                        dm2.MuseumHour = "10AM – 5:30PM"
+                        dm2.MuseumParking = "Street Parking"
+                        dm2.MuseumMap = "https://nmaahc.si.edu/visit/museum-maps"
+                        dm2.MuseumAddress = "1400 Constitution Ave. NW, Washington, DC 20560"
+                        dm2.MuseumWebSite  = "https://nmaahc.si.edu/"
+                        dm2.MuseumImage = "African American History and Cultural.jpeg"
+                        dm2.MuseumEvent = "https://nmaahc.si.edu/events"
+                        DMArray.append(dm2)
+                    
+                    let dm3 = Museum()
+                        dm3.MuseumName = "National Gallery of Art"
+                        dm3.MuseumDescription = "The National Gallery of Art serves the nation by welcoming all people to explore and experience art, creativity, and our shared humanity."
+                        dm3.MuseumTicket = "Free Entry"
+            
+                        dm3.MuseumHour = "10:00AM - 5:00PM"
+                        dm3.MuseumParking = "Street Parking"
+                        dm3.MuseumMap = "https://www.nga.gov/content/dam/ngaweb/visit/pdf/campus-map-guide-eb-closed.pdf"
+                        dm3.MuseumAddress = "4th St and Constitution Ave NW"
+                        dm3.MuseumWebSite  = "https://www.nga.gov/"
+                        dm3.MuseumImage = "National Gallery of Art .png"
+                        dm3.MuseumEvent = "https://www.nga.gov/calendar.html"
+                        DMArray.append(dm3)
+                    
+                    let dm4 = Museum()
+                        dm4.MuseumName = "National Air and Space Museum"
+                        dm4.MuseumDescription = "The National Air and Space Museum of the Smithsonian Institution, also called the Air and Space Museum, is a museum in Washington, D.C., US. It was established in 1946 as the National Air Museum and opened its main building on the National Mall near L'Enfant Plaza in 1976."
+                        dm4.MuseumTicket = "Free Entry"
+                        dm4.MuseumHour = "10AM – 5:30PM"
+                        dm4.MuseumParking = "Street Parking"
+                        dm4.MuseumMap = "https://airandspace.si.edu/multimedia-gallery/hazymap2022-webjpg"
+                        dm4.MuseumAddress = "600 Independence Ave SW, Washington, DC 20560"
+                        dm4.MuseumWebSite  = "https://airandspace.si.edu/"
+                        dm4.MuseumImage = "National Air and Space Museum.png"
+                        dm4.MuseumEvent = "https://airandspace.si.edu/visit/events"
+                        DMArray.append(dm4)
+                    
+                    let dm5 = Museum()
+                     
+                        dm5.MuseumName = "The National Archives Museum"
+                        dm5.MuseumDescription = "The museum wing of the National Archives, the National Archives Museum is the home of the Declaration of Independence, Constitution, and Bill of Rights."
+                        dm5.MuseumTicket = "Not Free Entry"
+                        dm5.MuseumHour = "10:00 a.m. - 5:30 p.m."
+                        dm5.MuseumParking = "Street Parking"
+                        dm5.MuseumMap = "https://museum.archives.gov/sites/default/files/2018-08/national-archives-museum-visitor-guide.pdf"
+                        dm5.MuseumAddress = "701 Constitution Ave. NW, Washington, DC 20408"
+                        dm5.MuseumWebSite  = "https://www.archives.gov/"
+                        dm5.MuseumImage = "The National Archives Museum.png"
+                        dm5.MuseumEvent = "https://museum.archives.gov/events"
+                        DMArray.append(dm5)
